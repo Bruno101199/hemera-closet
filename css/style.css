@@ -141,19 +141,11 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
 
 .hero-img-wrap {
   width: 100%;
-  max-height: 70vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--dark);
 }
 
 .hero-img-wrap img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center;
+  height: auto;
   display: block;
 }
 
@@ -373,6 +365,64 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   color: var(--gray-light);
   text-decoration: line-through;
   margin-left: 8px;
+}
+
+/* ===== INSTAGRAM FEED ===== */
+.instagram-section {
+  padding: 72px 40px;
+  background: var(--white);
+  border-top: 1px solid var(--pink-border);
+}
+
+.instagram-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--pink);
+  border: 1.5px solid var(--pink);
+  padding: 9px 20px;
+  border-radius: 100px;
+  transition: all 0.2s;
+}
+.instagram-link:hover {
+  background: var(--pink);
+  color: #fff;
+}
+
+.instagram-feed-wrap {
+  width: 100%;
+  min-height: 320px;
+}
+
+.instagram-feed-wrap iframe {
+  width: 100%;
+  min-height: 320px;
+  display: block;
+}
+
+.instagram-fallback {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--pink-pale);
+  border-radius: 8px;
+  border: 1px dashed var(--pink-border);
+}
+.instagram-fallback a {
+  color: var(--pink);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 /* ===== BENEFITS CAROUSEL ===== */
@@ -958,7 +1008,7 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   .sales-hero, .features-section, .cta-section { padding: 56px 20px; }
   .promise-section { padding: 56px 20px; }
   .products-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
-  .hero-img-wrap { max-height: 52vw; }
+  .hero-img-wrap { width: 100%; }
   .map-section iframe { height: 300px; }
   .promo-banner { font-size: 10px; letter-spacing: 1.5px; padding: 10px 16px; }
 }

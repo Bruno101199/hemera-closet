@@ -214,8 +214,55 @@
     </div>
   </section>
 
+  <!-- ===== INSTAGRAM FEED ===== -->
+  <!--
+    ATIVAÇÃO DO FEED:
+    1. Acesse https://snapwidget.com e crie uma conta gratuita
+    2. Conecte o Instagram @hemeracloset
+    3. Crie um widget do tipo "Instagram Photos" (grade, sem legenda)
+    4. Copie o ID numérico do widget (ex: 123456)
+    5. Substitua SNAPWIDGET_ID_AQUI abaixo pelo seu ID e remova o comentário do iframe
+  -->
+  <section class="instagram-section">
+    <div class="instagram-header fade-up">
+      <div>
+        <p class="section-label">Nos siga nas redes</p>
+        <h2 class="section-title">@HEMERACLOSET</h2>
+      </div>
+      <a href="https://www.instagram.com/hemeracloset/" target="_blank" rel="noopener" class="instagram-link">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/>
+        </svg>
+        Ver perfil
+      </a>
+    </div>
+
+    <!-- Feed Instagram via SnapWidget (ativar após criar conta) -->
+    <div class="instagram-feed-wrap">
+      <script src="//snapwidget.com/js/snapwidget.js"></script>
+      <iframe src="//snapwidget.com/embed/SNAPWIDGET_ID_AQUI"
+        class="snapwidget-widget"
+        allowtransparency="true"
+        frameborder="0"
+        scrolling="no"
+        title="Feed Instagram @hemeracloset"
+        style="border:none; overflow:hidden; width:100%;"></iframe>
+    </div>
+
+    <!-- Fallback: exibido quando o widget ainda não estiver configurado -->
+    <noscript>
+      <div class="instagram-fallback">
+        <a href="https://www.instagram.com/hemeracloset/" target="_blank" rel="noopener">
+          Acompanhe nossa coleção no Instagram @hemeracloset
+        </a>
+      </div>
+    </noscript>
+  </section>
+
   <!-- ===== BENEFÍCIOS ===== -->
-  <section class="benefits-section hemera-pattern">
+  <section class="benefits-section">
     <div class="benefits-header fade-up">
       <p class="section-label">Por que nos escolher</p>
       <h2 class="section-title">O PADRÃO<br>HEMERA</h2>
