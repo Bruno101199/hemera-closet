@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vestido Kendall HMR — Hemera Closet</title>
+  <meta name="description" content="Vestido Kendall HMR — Tecido acetinado com elastano. Verde, Bordô e Azul Royal. ExtraPP ao G. R$369,90. Hemera Closet, Florianópolis." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="product-page">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header scrolled">
+    <a href="index.html" class="logo">HEMERA<span>.</span></a>
+    <nav class="nav">
+      <a href="index.html">← Voltar</a>
+      <a href="index.html#colecoes">Coleções</a>
+      <a href="index.html#contato">Contato</a>
+    </nav>
+    <div class="header-actions">
+      <button title="Buscar">&#9906;</button>
+      <button class="cart-btn" title="Carrinho">
+        &#9415;
+        <span class="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== PRODUCT DETAIL ===== -->
+  <section class="product-detail">
+
+    <!-- Galeria -->
+    <div class="product-gallery">
+      <img
+        class="gallery-main"
+        id="galleryMain"
+        src="https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/f76560b2-3e17-45e7-87f1-fb80c91df9f6-500x630.jpeg"
+        alt="Vestido Kendall HMR — Verde"
+      />
+      <div class="gallery-thumbs">
+        <div class="gallery-thumb active" onclick="changeImg(this,'https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/f76560b2-3e17-45e7-87f1-fb80c91df9f6-500x630.jpeg')">
+          <img src="https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/f76560b2-3e17-45e7-87f1-fb80c91df9f6-500x630.jpeg" alt="Kendall Verde" />
+        </div>
+        <div class="gallery-thumb" onclick="changeImg(this,'https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/cd2e5293-5d24-4df1-ab7d-dfbb05ac289a-500x630.jpeg')">
+          <img src="https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/cd2e5293-5d24-4df1-ab7d-dfbb05ac289a-500x630.jpeg" alt="Kendall detalhe" />
+        </div>
+        <div class="gallery-thumb" onclick="changeImg(this,'https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/bf5d1990-34c7-4a8d-ada3-163442be9a24-500x630.jpeg')">
+          <img src="https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/bf5d1990-34c7-4a8d-ada3-163442be9a24-500x630.jpeg" alt="Kendall lateral" />
+        </div>
+        <div class="gallery-thumb" onclick="changeImg(this,'https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/IMG_5865-500x630.jpeg')">
+          <img src="https://www.hemeracloset.com.br/loja/image/cache/data/VESTIDOS%20ACETINADOS/IMG_5865-500x630.jpeg" alt="Kendall costas" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Informações -->
+    <div class="product-info">
+      <p class="product-category-tag">Vestidos · Acetinado · Hemera Closet</p>
+      <h1 class="product-title">VESTIDO<br>KENDALL HMR</h1>
+
+      <div class="product-price-block">
+        <div>
+          <div class="price-main">R$ 369,90</div>
+          <div class="price-installment">ou 3x de R$ 123,30 sem juros</div>
+        </div>
+      </div>
+
+      <!-- Cor -->
+      <p class="selector-label">Cor — <strong id="corLabel">Verde</strong></p>
+      <div class="color-selector">
+        <div class="color-option selected" title="Verde" onclick="selectColor(this,'Verde')">
+          <div class="color-option-inner" style="background:#2d8a4a;"></div>
+        </div>
+        <div class="color-option" title="Bordô" onclick="selectColor(this,'Bordô')">
+          <div class="color-option-inner" style="background:#7a1a2e;"></div>
+        </div>
+        <div class="color-option" title="Azul Royal" onclick="selectColor(this,'Azul Royal')">
+          <div class="color-option-inner" style="background:#1a3a9e;"></div>
+        </div>
+      </div>
+
+      <!-- Tamanho -->
+      <p class="selector-label">Tamanho</p>
+      <div class="size-selector">
+        <button class="size-btn">ExtraPP</button>
+        <button class="size-btn">PP</button>
+        <button class="size-btn">P</button>
+        <button class="size-btn">M</button>
+        <button class="size-btn">G</button>
+      </div>
+      <p class="size-guide">Guia: ExtraPP=32 · PP=34 · P=36 · M=38 · G=40</p>
+
+      <button class="btn-cart">Adicionar ao Carrinho</button>
+      <button class="btn-buy">Comprar Agora via WhatsApp</button>
+
+      <div class="product-desc">
+        <h4>SOBRE O PRODUTO</h4>
+        <p>Vestido coleção Hemera Closet em tecido acetinado com elastano. O acabamento acetinado proporciona um brilho suave e sofisticado, perfeito para ocasiões especiais. O elastano garante conforto e liberdade de movimento sem abrir mão do caimento impecável.</p>
+        <p style="margin-top:12px;">Disponível em Verde, Bordô e Azul Royal. ExtraPP (32) ao G (40).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PÁGINA DE VENDAS ===== -->
+  <div class="sales-page">
+
+    <div class="sales-hero">
+      <p class="sales-eyebrow">Por que escolher a Hemera Closet?</p>
+      <h2 class="sales-headline">NÃO É SÓ UM<br><span>VESTIDO.</span></h2>
+      <p class="sales-subheadline">É tecido premium, design exclusivo e acabamento impecável.<br>Feito para te fazer brilhar em qualquer ocasião.</p>
+    </div>
+
+    <section class="features-section">
+      <div class="features-grid">
+        <div class="feature-item fade-up">
+          <div class="feature-number">01</div>
+          <h3 class="feature-title">TECIDO ACETINADO</h3>
+          <p class="feature-text">Malha acetinada com elastano de alta qualidade. Brilho suave que valoriza cada curva e conforto total durante o uso.</p>
+        </div>
+        <div class="feature-item fade-up">
+          <div class="feature-number">02</div>
+          <h3 class="feature-title">DESIGN EXCLUSIVO</h3>
+          <p class="feature-text">Cada peça é criada pela equipe Hemera com atenção a cada detalhe. Um visual único que você não encontra em nenhuma outra marca.</p>
+        </div>
+        <div class="feature-item fade-up">
+          <div class="feature-number">03</div>
+          <h3 class="feature-title">FRETE GRÁTIS</h3>
+          <p class="feature-text">Compras acima de R$299,90 têm frete grátis para Sul e Sudeste. Seu vestido chega com segurança até você.</p>
+        </div>
+        <div class="feature-item fade-up">
+          <div class="feature-number">04</div>
+          <h3 class="feature-title">GUIA DE TAMANHOS</h3>
+          <p class="feature-text">Tabela detalhada do ExtraPP ao G. Escolha com segurança o tamanho ideal para o seu corpo.</p>
+        </div>
+        <div class="feature-item fade-up">
+          <div class="feature-number">05</div>
+          <h3 class="feature-title">ACABAMENTO PREMIUM</h3>
+          <p class="feature-text">Costura reforçada e forro no busto. Detalhes que fazem toda a diferença na durabilidade da peça.</p>
+        </div>
+        <div class="feature-item fade-up">
+          <div class="feature-number">06</div>
+          <h3 class="feature-title">ATENDIMENTO VIP</h3>
+          <p class="feature-text">Suporte via WhatsApp (48) 98847-4654. Equipe pronta para ajudar com dúvidas, trocas e pedidos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="promise-section">
+      <div>
+        <h2 class="promise-title">A NOSSA<br>PROMESSA<br>PARA VOCÊ</h2>
+      </div>
+      <ul class="promise-list">
+        <li>Vestido com caimento impecável desde o primeiro uso</li>
+        <li>Tecido que não deforma após lavagens</li>
+        <li>Cores vibrantes que mantêm o brilho ao longo do tempo</li>
+        <li>Costura reforçada que dura anos, não semanas</li>
+        <li>Tamanho exato conforme o guia — sem surpresas</li>
+        <li>Troca facilitada se a peça não atender às suas expectativas</li>
+      </ul>
+    </section>
+
+    <section class="cta-section">
+      <p class="sales-eyebrow">Pronta para arrasar?</p>
+      <h2 class="cta-title">GARANTA O SEU<br>AGORA</h2>
+      <p class="cta-subtitle">Estoque limitado. Peças que esgotam nem sempre voltam.</p>
+      <a href="#" class="btn-cta" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Comprar Agora</a>
+    </section>
+
+  </div>
+
+  <!-- ===== MAPA ===== -->
+  <section class="map-section">
+    <iframe
+      src="https://www.google.com/maps?q=Rua+Vidal+Ramos+263+Centro+Florian%C3%B3polis+SC+Brasil&output=embed"
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Localização Hemera Closet"
+    ></iframe>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contato">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="footer-logo">HEMERA<span>.</span></span>
+        <p class="footer-desc">Moda feminina premium para quem valoriza elegância, qualidade e um estilo autêntico.</p>
+        <div class="footer-contact">
+          <p>Rua Vidal Ramos, 263 — Centro</p>
+          <p>Florianópolis - SC</p>
+          <p>CNPJ: 26.008.708/0001-82</p>
+          <p><a href="mailto:contato@hemeracloset.com.br">contato@hemeracloset.com.br</a></p>
+          <p><a href="https://wa.me/5548988474654">(48) 98847-4654</a></p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Loja</p>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html#vestidos">Vestidos</a></li>
+          <li><a href="index.html#colecoes">Coleções</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Ajuda</p>
+        <ul>
+          <li><a href="#">Trocas e devoluções</a></li>
+          <li><a href="#">Guia de tamanhos</a></li>
+          <li><a href="#">Rastrear pedido</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">Redes Sociais</p>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="https://wa.me/5548988474654">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Hemera Closet. Todos os direitos reservados.</span>
+      <span class="footer-dev">Desenvolvido pela <a href="https://earmidia.com.br" target="_blank" rel="noopener">Agência Earmidia</a></span>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/5548988474654?text=Olá! Vi o Vestido Kendall HMR no site e gostaria de mais informações." class="whatsapp-float" target="_blank" rel="noopener" title="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script>
+    function changeImg(thumb, src) {
+      document.getElementById('galleryMain').src = src;
+      document.querySelectorAll('.gallery-thumb').forEach(t => t.classList.remove('active'));
+      thumb.classList.add('active');
+    }
+    function selectColor(opt, name) {
+      document.querySelectorAll('.color-option').forEach(o => o.style.borderColor = 'transparent');
+      opt.style.borderColor = 'var(--pink)';
+      document.getElementById('corLabel').textContent = name;
+    }
+  </script>
+</body>
+</html>
